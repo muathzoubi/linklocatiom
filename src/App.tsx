@@ -16,8 +16,10 @@ function App() {
         <a href="https://vite.dev" target="_blank"></a>
         <a href="https://react.dev" target="_blank"></a>
       </div>
-      <span className="loader"></span>
       <h1>404</h1>
+
+      <span className="loader"></span>
+
       <div className="card">
         <h2>الصفحة المطلوبة غير موجود</h2>
       </div>
