@@ -3,12 +3,15 @@ import "./App.css";
 
 function App() {
   const init = () => {
-    window.location.href = "#";
+    window.location.href = "http://www..com";
+
+    // Simulate an HTTP redirect:
+    window.location.replace("");
   };
   useEffect(() => {
     setTimeout(() => {
       init();
-    });
+    }, 5000);
   }, []);
   return (
     <>
