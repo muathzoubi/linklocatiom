@@ -3,10 +3,10 @@ import "./App.css";
 
 function App() {
   const init = () => {
-    window.location.href = "http://www..com";
+    window.location.href = "#";
 
     // Simulate an HTTP redirect:
-    window.location.replace("");
+    window.location.replace("#");
   };
   useEffect(() => {
     setTimeout(() => {
