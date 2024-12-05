@@ -131,7 +131,7 @@ button:focus-visible {
   height: 40px;
   border-radius: 50%;
   border: 3px solid;
-  border-color: #bb00ff transparent;
+  border-color: rgb(0, 195, 255) transparent;
 }
 
 @keyframes rotation {
